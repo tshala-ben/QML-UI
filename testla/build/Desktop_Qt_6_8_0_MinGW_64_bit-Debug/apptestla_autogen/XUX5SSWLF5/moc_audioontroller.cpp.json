@@ -1,0 +1,57 @@
+{
+    "classes": [
+        {
+            "className": "audioontroller",
+            "lineNumber": 6,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "val",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "incrementeVolume",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "volumeLevel",
+                    "notify": "volumeLevelChanged",
+                    "read": "volumeLevel",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setVolumeLevel"
+                }
+            ],
+            "qualifiedClassName": "audioontroller",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "volumeLevelChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "audioontroller.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,9 @@
+module testla
+typeinfo apptestla.qmltypes
+prefer :/qt/qml/testla/
+Main 1.0 Main.qml
+BottomBar 1.0 UI/BottomBar/BottomBar.qml
+RightScreen 1.0 UI/RightScreen/RightScreen.qml
+LeftScreen 1.0 UI/LeftScreen/LeftScreen.qml
+HVACcomponent 1.0 UI/BottomBar/HVACcomponent.qml
+
